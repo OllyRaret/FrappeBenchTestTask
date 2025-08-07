@@ -1,0 +1,225 @@
+2025-08-07 16:02:53,284 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-07 15:20:32.472161","modified":"2025-08-07 15:58:11.840047","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Clients App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"mogock01fk","owner":"Administrator","creation":"2025-08-07 15:20:32.472161","modified":"2025-08-07 15:58:11.840047","modified_by":"Administrator","docstatus":0,"idx":1,"label":"Наименование","fieldtype":"Data","fieldname":"name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":1,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":1,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"mogdqldcmg","owner":"Administrator","creation":"2025-08-07 15:20:32.472161","modified":"2025-08-07 15:58:11.840047","modified_by":"Administrator","docstatus":0,"idx":2,"label":"ИНН","fieldtype":"Data","fieldname":"inn","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":1,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":1,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"mog9ru184u","owner":"Administrator","creation":"2025-08-07 15:20:32.472161","modified":"2025-08-07 15:58:11.840047","modified_by":"Administrator","docstatus":0,"idx":3,"label":"КПП","fieldtype":"Data","fieldname":"kpp","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"mog4gog70n","owner":"Administrator","creation":"2025-08-07 15:20:32.472161","modified":"2025-08-07 15:58:11.840047","modified_by":"Administrator","docstatus":0,"idx":4,"label":"Адрес","fieldtype":"Small Text","fieldname":"address","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField"}],"permissions":[{"name":"154cva9tua","owner":"Administrator","creation":"2025-08-07 15:20:32.472161","modified":"2025-08-07 15:58:11.840047","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-07 16:03:38,056 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-hkyzxjtcbi', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:03:57,560 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '526323813498', 'cmd': 'client_app.api.client.get_address_by_inn'}
+2025-08-07 16:04:29,021 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '526323813498', 'cmd': 'client_app.api.client.get_address_by_inn'}
+2025-08-07 16:04:33,113 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-royiqlxhzv', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:05:16,897 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-royiqlxhzv', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:05:27,387 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '526323813498', 'cmd': 'client.get_address_by_inn'}
+2025-08-07 16:06:28,148 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '526323813498', 'cmd': 'get_address_by_inn'}
+2025-08-07 16:08:16,428 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '526323813498', 'cmd': 'clients_app.get_address_by_inn'}
+2025-08-07 16:11:23,215 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '526323813498', 'cmd': 'clients_app.api.client.get_address_by_inn'}
+2025-08-07 16:31:42,922 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-byjkihmlez', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:45:40,303 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-ktnlemxvuk', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:48:03,131 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-cohtqkiasb', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:48:09,124 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'inn': '78415121396', 'cmd': 'clients_app.api.client.get_address_by_inn'}
+2025-08-07 16:57:56,863 ERROR frappe Could not take error snapshot: current transaction is aborted, commands ignored until end of transaction block
+
+Site: clients.local
+Form Dict: {'cmd': 'frappe.sessions.clear'}
+Traceback (most recent call last):
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/app.py", line 121, in application
+    response = frappe.api.handle(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/api/__init__.py", line 60, in handle
+    data = endpoint(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/handler.py", line 52, in handle
+    data = execute_cmd(cmd)
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/__init__.py", line 1127, in call
+    return fn(*args, **newargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/utils/typing_validations.py", line 36, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/sessions.py", line 33, in clear
+    frappe.local.session_obj.update(force=True)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/sessions.py", line 433, in update
+    ).run()
+      ^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.SerializationFailure: could not serialize access due to concurrent update
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/utils/__init__.py", line 217, in wrapper
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/document.py", line 110, in get_doc
+    return get_doc_from_dict(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/document.py", line 139, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/base_document.py", line 83, in get_controller
+    site_controllers[doctype] = import_controller(doctype)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/base_document.py", line 94, in import_controller
+    doctype_info = frappe.db.get_value("DocType", doctype, ("module", "custom", "is_tree"), as_dict=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 554, in get_value
+    result = self.get_values(
+             ^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 667, in get_values
+    out = query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-07 16:58:33,399 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-mqppmwirwq', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 16:59:12,041 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doctype': 'Client', 'name': 'new-client-gedvnouofg', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-07 17:02:18,844 ERROR frappe New Exception collected in error log
+Site: clients.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Client","name":"new-client-sjlexmphkx","__islocal":1,"__unsaved":1,"owner":"Administrator","name1":"ООО \\"ИНТЕЛЛЕКТ ЭНЕРГО\\"","inn":"5260475661","kpp":"526001001","address":"г Нижний Новгород, Верхне-Печерская слобода, д 412В"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-07 17:28:33,056 ERROR frappe Could not take error snapshot: current transaction is aborted, commands ignored until end of transaction block
+
+Site: clients.local
+Form Dict: {'cmd': 'frappe.sessions.clear'}
+Traceback (most recent call last):
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/app.py", line 121, in application
+    response = frappe.api.handle(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/api/__init__.py", line 60, in handle
+    data = endpoint(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/handler.py", line 52, in handle
+    data = execute_cmd(cmd)
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/__init__.py", line 1127, in call
+    return fn(*args, **newargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/utils/typing_validations.py", line 36, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/sessions.py", line 33, in clear
+    frappe.local.session_obj.update(force=True)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/sessions.py", line 433, in update
+    ).run()
+      ^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.SerializationFailure: could not serialize access due to concurrent update
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/utils/__init__.py", line 217, in wrapper
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/document.py", line 110, in get_doc
+    return get_doc_from_dict(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/document.py", line 139, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/base_document.py", line 83, in get_controller
+    site_controllers[doctype] = import_controller(doctype)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/model/base_document.py", line 94, in import_controller
+    doctype_info = frappe.db.get_value("DocType", doctype, ("module", "custom", "is_tree"), as_dict=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 554, in get_value
+    result = self.get_values(
+             ^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 667, in get_values
+    out = query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/tmp/frappe_test_task/frappe-bench/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+

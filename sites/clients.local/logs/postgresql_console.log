@@ -1,0 +1,9 @@
+select * from Client;
+desc Client;
+desc Clients;
+select * from Clients;
+select * from tabClient;
+SELECT table_name FROM information_schema.tables WHERE table_schema='public';
+select * from 'tabClient Script';
+select * from tabClient Script;
+\q

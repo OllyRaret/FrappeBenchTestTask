@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-07 15:20:32.472161",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "inn",
+  "kpp",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "inn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0418\u041d\u041d",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kpp",
+   "fieldtype": "Data",
+   "label": "\u041a\u041f\u041f"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "\u0410\u0434\u0440\u0435\u0441"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-07 16:03:22.181276",
+ "modified_by": "Administrator",
+ "module": "Clients App",
+ "name": "Client",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

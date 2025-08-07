@@ -1,0 +1,7 @@
+/bin/sh: 1: /mnt/d/tmp/frappe_test_task/venv/bin/bench: not found
+set -o pipefail; /usr/bin/pg_dump postgresql://_12b000f80a72e184:**********@127.0.0.1:5432/_12b000f80a72e184 | /usr/bin/gzip >> ./clients.local/private/backups/20250807_180006-clients_local-database.sql.gz
+
+Backup Summary for clients.local at 2025-08-07 18:00:06.996707
+Config  : /mnt/d/tmp/frappe_test_task/frappe-bench/sites/clients.local/private/backups/20250807_180006-clients_local-site_config_backup.json 192.0B
+Database: /mnt/d/tmp/frappe_test_task/frappe-bench/sites/clients.local/private/backups/20250807_180006-clients_local-database.sql.gz 228.5KiB
+Backup for Site clients.local has been successfully completed
